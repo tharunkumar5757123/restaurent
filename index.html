@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .resturent-carts {
+            margin: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .resturent-cart {
+            width: 23.3%;
+            border-radius: 10px;
+            box-shadow: 10px 10px 40px rgba(24, 24, 237, 0.4);
+        }
+
+        .resturent-img .discount {
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            position: absolute;
+            left: 10px;
+            bottom: 10px
+        }
+
+        .resturent-img img {
+            height: 200px;
+            width: 100%;
+            object-fit: covier;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .returent-details {
+            padding: 10px;
+            color: grey;
+            font-size: 14px;
+        }
+
+        .gruop {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+        }
+
+        .rating {
+            background-color: green;
+            color: white;
+            text-align: center;
+            font-weight: 700;
+            padding: 2px;
+            border-radius: 5px;
+
+        }
+
+        .resturent-name {
+            font-weight: 700;
+            color: #000;
+        }
+
+        .resturent-img {
+            position: relative;
+        }
+
+        @media(max-width:580px) {
+            .resturent-cart {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resturent-carts">
+        <div class="resturent-cart">
+            <div class="resturent-img">
+                <a href="https://www.dominos.co.in/">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.6tT7kLGclWoRytoYNMmsDQHaEK&pid=Api&P=0&h=180" alt="">
+                </a>
+                <div class="discount">
+                    40% OFF Upto 100
+                </div>
+            </div>
+            <div class="returent-details">
+                <div class="gruop">
+                    <p class="resturent-name">Domino's pizza</p>
+                    <p class="rating">4.6 &#x2605</p>
+                </div>
+                <div class="gruop">
+                    <p>
+                        Pizza,Fast Food
+                    </p>
+                    <p>
+                        &#x20b9; 400 for two
+                    </p>
+                </div>
+                <div class="gruop">
+                    <p>
+                        Jublli Hills,Hyd
+                    </p>
+                    <p>
+                        3.7km
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="resturent-cart">
+            <div class="resturent-img">
+                <a href="https://online.kfc.co.in/">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.kqa_T0pM3xYgnkA6_yVlmgHaFI&pid=Api&P=0&h=180" alt="">
+                </a>
+                <div class="discount">
+                    30% OFF Upto 150
+                </div>
+            </div>
+            <div class="returent-details">
+                <div class="gruop">
+                    <p class="resturent-name">KFC</p>
+                    <p class="rating">3.0 &#x2605</p>
+                </div>
+                <div class="gruop">
+                    <p>
+                        Fried Chicken,Fast Food
+                    </p>
+                    <p>
+                        &#x20b9; 300 for two
+                    </p>
+                </div>
+                <div class="gruop">
+                    <p>
+                        Banjara Hills,Hyd
+                    </p>
+                    <p>
+                        1.7km
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="resturent-cart">
+            <div class="resturent-img">
+                <a href="https://www.burgerking.in/">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.-bxDEVzAOhXot_qLcCaYqwHaEY&pid=Api&P=0&h=180" alt="">
+                </a>
+                <div class="discount">
+                    25% OFF Upto 75
+                </div>
+            </div>
+            <div class="returent-details">
+                <div class="gruop">
+                    <p class="resturent-name">Barger King</p>
+                    <p class="rating">3.8 &#x2605</p>
+                </div>
+                <div class="gruop">
+                    <p>
+                        Burger,Fast Food
+                    </p>
+                    <p>
+                        &#x20b9; 300 for two
+                    </p>
+                </div>
+                <div class="gruop">
+                    <p>
+                        Madhapur,Hyd
+                    </p>
+                    <p>
+                        5.7km
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="resturent-cart">
+            <div class="resturent-img">
+                <a href="https://www.barbequenation.com/">
+                    <img src="https://i.ytimg.com/vi/yUelhaX9Qyw/maxresdefault.jpg" alt="">
+                </a>
+                <div class="discount">
+                    15% OFF Upto 100
+                </div>
+            </div>
+            <div class="returent-details">
+                <div class="gruop">
+                    <p class="resturent-name">Barbeque Nation</p>
+                    <p class="rating">4.2 &#x2605</p>
+                </div>
+                <div class="gruop">
+                    <p>
+                        BBQ,Buffet
+                    </p>
+                    <p>
+                        &#x20b9; 800 for two
+                    </p>
+                </div>
+                <div class="gruop">
+                    <p>
+                        Ameerpet,Hyd
+                    </p>
+                    <p>
+                        3.7km
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
